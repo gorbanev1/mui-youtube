@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="439f4afa-9583-4af6-8a6b-6c34165a21d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="358sKTxnKihZTkuqW2LMmFB3YhS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Adm\\WebstormProjects\\Mui Youtube\\Mui tutorial\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="439f4afa-9583-4af6-8a6b-6c34165a21d9" name="Changes" comment="" />
+      <created>1762502968633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762502968633</updated>
+      <workItem from="1762502969640" duration="11540000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
