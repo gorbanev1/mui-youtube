@@ -5,3 +5,19 @@ declare module '@mui/material/Button' {
         dashed: true; // добавляем вариант
     }
 }
+
+declare module '@mui/material/styles' {
+    interface BreakpointOverrides {
+        mobile: true; // ✅ добавляем свои
+        tablet: true;
+        laptop: true;
+        desktop: true;
+        xs: false;
+        sm: false;
+        md: false;
+        lg: false;
+        xl: false;
+
+
+    }
+}

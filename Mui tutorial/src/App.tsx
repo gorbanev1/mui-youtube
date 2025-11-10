@@ -2,7 +2,7 @@ import {
     Button,
     Container,
     createTheme,
-    CssBaseline, FormControlLabel, Radio, RadioGroup,
+    CssBaseline, FormControlLabel, Grid, Radio, RadioGroup,
     Slider,
     type SliderProps,
     Stack,
@@ -31,7 +31,7 @@ const CustomSlider = styled(Slider, {
 function ThemeToggle() {
     const {mode, setMode} = useColorScheme()
     if (!mode) return null
-    return <RadioGroup value={mode} onChange={(e)=>setMode(e.currentTarget.value as 'system'|'light'|'dark')}>
+    return <RadioGroup value={mode} onChange={(e) => setMode(e.currentTarget.value as 'system' | 'light' | 'dark')}>
         <FormControlLabel control={<Radio/>} value={'system'} label={'System'}/>
         <FormControlLabel control={<Radio/>} value={'light'} label={'Light'}/>
         <FormControlLabel control={<Radio/>} value={'dark'} label={'Dark'}/>
@@ -39,6 +39,14 @@ function ThemeToggle() {
 }
 
 const theme = createTheme({
+    breakpoints: {
+        values: {
+            mobile: 0,
+            tablet: 640,
+            laptop: 1024,
+            desktop: 1200,
+        }
+    },
     typography: {
         fontFamily: 'Poppins',
     },
@@ -104,7 +112,18 @@ function App() {
         <>
             <ThemeProvider theme={theme}>
                 <CssBaseline/>
-                <Container
+                <Grid container spacing={2} width="100%">
+                    <Grid size={{ mobile: 12, tablet: 6, laptop: 4, desktop: 3 }}>
+                        <Button fullWidth>1</Button>
+                    </Grid>
+                    <Grid size={{ mobile: 12, tablet: 6, laptop: 4, desktop: 3 }}>
+                        <Button fullWidth>2</Button>
+                    </Grid>
+                    <Grid size={{ mobile: 12, tablet: 6, laptop: 4, desktop: 3 }}>
+                        <Button fullWidth>3</Button>
+                    </Grid>
+                </Grid>
+                {/*                <Container
                     maxWidth={false}
                     disableGutters
                     sx={{
@@ -122,26 +141,26 @@ function App() {
                     <Stack gap={2}>
                         <ThemeToggle/>
                         <CustomSlider error/>
-                        {/*<Slider*/}
-                        {/*    disabled*/}
-                        {/*    sx={{*/}
-                        {/*        backgroundColor: "blue",*/}
-                        {/*        // '& .MuiSlider-thumb':{*/}
-                        {/*        //     ':hover': {*/}
-                        {/*        //         backgroundColor: 'gold'*/}
-                        {/*        //     },*/}
-                        {/*        //     background: 'red'*/}
-                        {/*        // },*/}
-                        {/*        width: 100,*/}
-                        {/*        color: 'success.main',*/}
-                        {/*        '&.Mui-disabled': {*/}
-                        {/*            ' .MuiSlider-thumb': {*/}
-                        {/*                backgroundColor: 'red',*/}
-                        {/*            },*/}
-                        {/*            '.MuiSlider-rail'*/}
-                        {/*        },*/}
+                        <Slider
+                            disabled
+                            sx={{
+                                backgroundColor: "blue",
+                                // '& .MuiSlider-thumb':{
+                                //     ':hover': {
+                                //         backgroundColor: 'gold'
+                                //     },
+                                //     background: 'red'
+                                // },
+                                width: 100,
+                                color: 'success.main',
+                                '&.Mui-disabled': {
+                                    ' .MuiSlider-thumb': {
+                                        backgroundColor: 'red',
+                                    },
+                                    '.MuiSlider-rail'
+                                },
 
-                        {/*    }}/>*/}
+                            }}/>
 
                         <Button>{'fsadf'}</Button>
                         <Button variant={'outlined'} color={'secondary'}>dsfgsdfdgd</Button>
@@ -149,7 +168,7 @@ function App() {
                         <Typography variant={'h1'}>h1</Typography>
                         <Typography variant={'h2'}>h2</Typography>
                     </Stack>
-                </Container>
+                </Container>*/}
             </ThemeProvider>
         </>
     );
