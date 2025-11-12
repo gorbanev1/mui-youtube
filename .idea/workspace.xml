@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="439f4afa-9583-4af6-8a6b-6c34165a21d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/components/localeCheck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/components/providers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/hooks/useStore.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mui tutorial/src/hooks/useTheme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mui tutorial/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Mui tutorial/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mui tutorial/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Mui tutorial/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mui tutorial/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Mui tutorial/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mui tutorial/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Mui tutorial/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mui tutorial/src/types/mui.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Mui tutorial/src/types/mui.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +63,28 @@
       <updated>1762502968633</updated>
       <workItem from="1762502969640" duration="11540000" />
       <workItem from="1762781154940" duration="13409000" />
+      <workItem from="1762846410496" duration="26080000" />
+      <workItem from="1762964753115" duration="3742000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Mui tutorial/src/App.tsx</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Mui tutorial/src/App.tsx</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

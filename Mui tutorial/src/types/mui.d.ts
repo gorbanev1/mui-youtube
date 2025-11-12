@@ -12,11 +12,11 @@ declare module '@mui/material/styles' {
         tablet: true;
         laptop: true;
         desktop: true;
-        xs: false;
-        sm: false;
-        md: false;
-        lg: false;
-        xl: false;
+        xs: true;
+        sm: true;
+        d: true;
+        lg: true;
+        xl: true;
 
 
     }
